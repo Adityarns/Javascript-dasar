@@ -152,3 +152,34 @@ if (nilaiMtk > 65 && nilaiPDP > 70) {
 } else {
   document.writeln("<p>" + "Ga lulus" + "</p>");
 }
+
+// Switch Case
+let UTS = "A";
+switch (UTS){
+  case "A":
+    document.writeln("<p>Sangat Bagus...</p>")
+    break;
+  case "B":
+    document.writeln("<p>Sangat Bagus...</p>")
+    break;
+  case "c":
+    document.writeln("<p>Sangat Bagus...</p>")
+    break;
+}
+
+
+
+// Popup di Js
+// let inputanUser = prompt("Masukkan Usia Anda!!!");
+// alert(`Anda Berumur ${inputanUser} tahun`)
+
+// Variabel Undefined 
+// let bapaknyaArdhi = prompt("Masukkan nama bapaknya Ardhi");
+
+// if (bapaknyaArdhi === undefined){
+//   alert("Undefined");
+// }
+// else{
+//   alert("Defined");
+// }
+
